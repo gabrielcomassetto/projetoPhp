@@ -1,0 +1,329 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+.logo{
+    position: relative;
+    margin-left: 10%;
+    text-decoration: none;
+    font-family: sans-serif;
+    align-items: center;
+    padding: 18px;
+    color: white;
+    width: 30vw;
+    height: auto;
+}
+
+.navbar{
+    background: linear-gradient(200deg, #216fff, #ffa63f);
+    display:flex;
+    height: 100px;
+    top:0;
+    height: auto;
+}
+
+nav{  
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+
+
+
+}
+section.servs ul.video_ul{
+    display: inline-flex;
+    list-style-type: none;
+}
+
+section.servs ul.video_ul li.texto h1#florence{
+    display: flex;
+    font-family: sans-serif;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    color: #747474;
+    margin: 10px;
+}
+section.servs ul.video_ul li.texto p#florence{
+    display: flex;
+    font-family: sans-serif;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    color: #747474;
+    margin-top: 20px;
+}
+
+section.servs ul.video_ul li.texto{
+    width: 60%;
+    align-items: center;
+    text-align: center;
+    height: 40%;
+    margin-top: 30px;
+}
+
+nav ul#menu-nav{
+    list-style-type: none;
+    display: inline-flex;
+    gap: 3rem;
+}
+ul#menu-nav li a{
+    text-decoration: none;
+  list-style-type: none;
+  color: white;
+
+}
+ul#menu-nav a:hover{
+    color: rgb(255, 153, 0);
+    transition: 200ms;
+
+}
+
+.servs{
+    display: flex;
+    height: 60vh;
+    background: -webkit-linear-gradient(230deg, #ffffff, #f0f0f0); 
+}
+.video_container{
+    max-width: 800px;
+    margin: 50px auto;
+
+}
+.video_container .box_video {
+    padding-bottom: 56.25%;
+    width: 100%;
+    height: 0;
+}
+.box_video iframe {
+    width: 30vw;
+    height: 40vh;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+
+.container_img{
+    height: 200x;
+    width: 120px;
+    display: inline-flex;
+    margin: 10px;
+    padding: 20px;
+    
+}
+
+.img1{
+    padding: 60px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("https://i.pinimg.com/564x/e1/41/4b/e1414b2b7048397ce2346a3f917d5b00.jpg");
+ 
+}
+.img2{
+    padding: 60px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("https://i.pinimg.com/originals/2d/ff/98/2dff98d28c3c9af2a56a03f920b40930.png");
+
+}
+
+.img3{
+    padding: 60px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("http://www.utfpr.edu.br/icones/ti/manutencao-e-servicos-gerais.png");
+}
+.img4{
+    padding: 60px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("https://image.freepik.com/vetores-gratis/desenhos-animados-de-programador-de-software_24640-21623.jpg");
+
+}
+
+.containers{
+    position:relative;
+    width: 60%;
+    min-height: 30vh;
+    margin: 0;
+    padding: 20px;
+    left: 28%;
+}
+
+.corpo{
+    height: 30vh;
+}
+
+.serv__ h1, p.serv_text{
+    text-align: center;
+    align-items: center;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #747474;
+    position: relative;
+    bottom: 50%;
+}
+
+.serv__{
+    margin: 10px;
+    padding: 0;
+    min-height: 15vh;
+    min-width: 200px;
+
+}
+
+.busca_input{
+    height: 45px;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 8px;
+    border: unset;
+    background: rgb(218, 218, 218);
+    border-radius:8px;
+}
+
+#busca{
+    min-height: 100px;
+    width: 250px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.cadastro_submit{
+    position: relative;
+    align-items: center;
+}
+
+.busca__{
+    width: 100%;
+}
+.busca_submit{
+    position: relative;
+    margin: 10px 0 0 80px;
+    background-size: 100px;
+    font-weight: bold;
+    background-color: #ffa238;
+    border: unset;
+    border-radius: 4px;
+    height: 30px;
+    cursor: pointer;
+    color: white;
+    padding: 0 20px 0 20px;
+}
+
+#btn-mob:hover{
+    font-size: 21px;
+    transition: 200ms;
+    color: rgb(255, 255, 255);
+    
+}
+
+#btn-mob{
+    display: none;
+    background-color: rgb(255, 168, 68);
+    color: white;
+    padding: 10px;
+    position: absolute;
+    top: 30px;
+    right: 0;
+    font-size: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.filtros{
+    position: relative;
+    width: 50%;
+    min-height: 30vh;
+    margin: auto 0;
+    left: 25%;
+}
+
+
+article{
+    width: 100%;
+    background-color: rgb(168, 168, 168);
+    color: white;
+    border: 3px solid;
+    justify-content: center;
+    display: inline-flex;
+    margin: 0 auto;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+footer.footer{
+    height: 10vh;
+    background: linear-gradient(261deg
+, #ff8826, #005affc7);
+    margin: 0;
+    padding: 0;
+}
+
+.footer h1{
+    justify-content: center;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 15px;
+    position: relative;
+    top: 30%;
+    color: #dfdfdf;
+
+}
+
+.footer p{
+    justify-content: center;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 13px;
+    position: relative;
+    top: 30%;
+    color: #dfdfdf;
+}
+   
+@media (max-width: 840px){
+    #btn-mob{
+        display: block;
+    }
+
+    ul#menu-nav li a{
+        display: none;
+        padding: .8rem;
+        border-bottom: 1px solid rgb(218, 218, 218);
+    }
+    .ferramentas #menu-nav{
+        display: none;
+        padding: 0;
+        margin: 0;
+        max-width: 100%;
+        min-width: 100%;
+        position: absolute;
+        top: 103.5px;
+        left: 0;
+        display: inline-block;
+        align-items: center;
+        justify-content:space-between;
+        background-color: rgb(53, 53, 53);
+        opacity: 0.7;
+       
+    }
+
+    ul#menu-nav.active li a{
+        display: flex;
+     
+    }
+
+    
+}
+
+

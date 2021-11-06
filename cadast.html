@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="validaçao.js"></script>
+</head>
+
+<body>
+    <main class="cadastro">
+        <div class="cadastro_container">
+            <h1 class="cadastro_title">Cadastro</h1>
+            <form class="cadastro_form" name="formulario" method="POST" action="processa.php"
+                onsubmit="return validar(formulario)">
+                <input class="cadastro_input" type="nome" name="nome" placeholder="Nome">
+                <span class="cadastro_input-border"></span>
+                <input class="cadastro_input" type="email" name="email" placeholder="Email">
+                <span class="cadastro_input-border"></span>
+                <input class="cadastro_input" type="profissao" name="profissao" placeholder="Profissao">
+                <span class="cadastro_input-border"></span>
+                <input class="cadastro_input" type="tel" name="tel" placeholder="Telefone">
+                <span class="cadastro_input-border"></span>
+                <input class="cadastro_input" type="password" name="senha" placeholder="Senha">
+                <span class="cadastro_input-border"></span>
+                <input class="cadastro_input" type="password" name="senhac" placeholder="Confirme a senha">
+                <span class="cadastro_input-border"></span>
+                <button class="cadastro_submit">Cadastrar</button>
+                <a class="login" href="login.html">Fazer login</a>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>
