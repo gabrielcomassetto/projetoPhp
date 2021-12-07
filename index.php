@@ -22,10 +22,11 @@ $registros = mysqli_num_rows($consulta);
     <script src="buton.js" async></script>
 </head>
 
+<!--Menu navegação-->
 
 <body>
     <header>
-        <main class="navbar">
+        <div class="navbar">
             <h2 class="logo">florence.services</h2>
             <nav class="ferramentas">
                 <ul id="menu-nav">
@@ -36,31 +37,22 @@ $registros = mysqli_num_rows($consulta);
                 </ul>
                 <div id="btn-mob"><i class="fa fa-bars"></i></div>
             </nav>
-        </main>
+        </div>
     </header>
 
-    <section class="servs">
-        <ul class="video_ul">
-            <li class="texto">
-                <h1 id="florence">Florence Services
-                </h1>
-                <p id="florence">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit numquam doloremque
-                    temporibus facilis
-                    nemo
-                    libero ipsam ullam quo nobis, magnam maiores incidunt a velit neque in odio quidem debitis autem!
-                </p>
-            </li>
-            <li>
-                <div class="video_container">
-                    <div class="box_video">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/irdYFPxxOjE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>
-                </div>
-            </li>
-        </ul>
+    <!--Transição de imagens-->
+    <section class="slideshow">
+        <div class="main">
+            <div id="slider">
+                <img class="selected" src="https://i.ibb.co/0K1vcfB/video-oficina-mecanica-limpa-5-dicas-para-voce-aplicar.jpg" alt="Image1">
+                <img src="https://i.ibb.co/ctCWHhd/Manuten-o-el-trica.jpg" alt="Image2">
+                <img src="https://i.ibb.co/Fm5NRmW/1613771470603032ce0a9dc435439238.jpg" alt="Image3">
+                <img src="https://i.ibb.co/Gt0GBKB/tic-nas-empresas-1024x538.jpg" alt="Image4">
+            </div>
+        </div>
     </section>
-
-
+    <script src="slider.js"></script>
+    <!--Imagens fixas-->
 
     <section class="corpo">
         <div class="containers">
@@ -83,6 +75,9 @@ $registros = mysqli_num_rows($consulta);
                 </div>
             </div>
         </div>
+
+        <!--Busca de serviços-->
+
         <div class="serv__">
             <h1>Nossos serviços
             </h1>
@@ -103,6 +98,7 @@ $registros = mysqli_num_rows($consulta);
             </div>
         </form>
 
+        <!--filtro de busca-->
 
         <div class="filtros">
             <button class="excluir">Excluir</button>
